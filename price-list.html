@@ -9,12 +9,12 @@
 <body>
 	<header class="main-header">
 		<div class="container">
-			<div class="logo"><img src="#" alt="Borodinsky" width="140" height="50"></div>
+			<div class="logo"><a href="#"><img src="#" alt="Borodinsky" width="140" height="50"></a></div>
 			<nav class="main-nav">
 				<ul>
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Новости</a></li>
-					<li><a href="#">Прайс-лист</a></li>
+					<li><a>Прайс-лист</a></li>
 					<li><a href="#">Магазин</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
@@ -25,16 +25,13 @@
 	<main>
 		<div class="container">
 			<h1>Прайс-лист</h1>
-			<nav class="breadcrumbs">
-				<ul>
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Средства для ухода</a></li>
-					<li><a href="#">Набор для путешествий Baxter of California</a></li>
-				</ul>
-			</nav> <b>Истинно мужская классика</b>
+			<ul class="breadcrumbs">
+				<li><a href="#">Главная</a></li>
+				<li><a>Прайс-лист</a></li>
+			</ul>
+			<p class="slogan">Истинно мужская классика</p>
 			<div class="left-column"> 
-				<strong>Мы используем только лучшие средства:</strong>
+				<h2>Мы используем только лучшие средства:</h2>
 				<ul>
 					<li>Baxter of California</li>
 					<li>Mr natty</li>
@@ -43,7 +40,7 @@
 				</ul> 
 			</div>
 			<div class="right-column">
-				<strong>Цены на услуги наших мастеров</strong>
+				<h2>Цены на услуги наших мастеров</h2>
 				<table>
 					<tr>
 						<td>Стрижка</td>
@@ -68,12 +65,22 @@
 	</main>
 	<footer class="main-footer">
 		<div class="container">
-			<p class="location"> Барбершоп Бородинский
-				<br> Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-				<br> <a href="#">Как нас найти?</a>
-				<br> Телефон: +7 (495) 666-01-66 </p>
-			<p class="social"> <b>Давайте дружить!</b> <a href="#" class="social-icon vk">Вконтакте</a> <a href="#" class="social-icon fb">Фейсбук</a> <a href="#" class="social-icon inst">Инстаграм</a> </p>
-			<p class="copyright"> <b>Разработано:</b> <a href="#">Htmlacademy.ru</a> </p>
+			<section class="footer-contacts"> 
+				Барбершоп Бородинский<br> 
+				Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> 
+				<a href="#">Как нас найти?</a><br> 
+				Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
+			</section>
+			<section class="footer-social"> 
+				<p>Давайте дружить!</p> 
+				<a href="#" class="social-icon vk">Вконтакте</a> 
+				<a href="#" class="social-icon fb">Фейсбук</a> 
+				<a href="#" class="social-icon inst">Инстаграм</a> 
+			</section>
+			<section class="footer-copyright"> 
+				<p>Разработано:</p> 
+				<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+			</section>
 		</div>
 	</footer>
 </body>
