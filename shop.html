@@ -9,13 +9,13 @@
 <body>
 	<header class="main-header">
 		<div class="container">
-			<div class="logo"><a href="#"><img src="#" alt="Borodinsky" width="140" height="50"></a></div>
+			<div class="logo"><a href="index.html"><img src="#" alt="Borodinsky" width="140" height="50"></a></div>
 			<nav class="main-nav">
 				<ul>
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Новости</a></li>
 					<li><a href="#">Прайс-лист</a></li>
-					<li><a>Магазин</a></li>
+					<li><a class="active">Магазин</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
@@ -29,50 +29,50 @@
 				<ul>
 					<li><a href="#">Главная</a></li>
 					<li><a href="#">Магазин</a></li>
-					<li><a>Средства для ухода</a></li>
+					<li><a class="active">Средства для ухода</a></li>
 				</ul>
 			</nav>
 			<div class="shop">
 				<form method="post" class="filter">
-					<fieldset class="brands">
+					<fieldset>
 						<legend>Производители:</legend>
 						<label>
-							<input type="checkbox">
+							<input type="checkbox" name="brands" value="baxterOfCalifornia">
 							Baxter of california
 						</label>
 						<label>
-							<input type="checkbox">
+							<input type="checkbox" name="brands" value="mrNatty">
 							Mr natty
 						</label>
 						<label>
-							<input type="checkbox">
-							suavecito
+							<input type="checkbox" name="brands" value="suavecito">
+							Suavecito
 						</label>
 						<label>
-							<input type="checkbox">
+							<input type="checkbox" name="brands" value="malinGoets">
 							Malin+Goets
 						</label>
 						<label>
-							<input type="checkbox">
+							<input type="checkbox" name="brands" value="murrays">
 							Murray's
 						</label>
 						<label>
-							<input type="checkbox">
+							<input type="checkbox" name="brands" value="americanCrew">
 							American crew
 						</label>	
 					</fieldset>
-					<fieldset class="product">
+					<fieldset>
 						<legend>Группы товаров:</legend>
 						<label>
-							<input type="radio" name="product-group">
+							<input type="radio" name="product-group" value="forRazor">
 							Бритвенные принадлежности
 						</label>
 						<label>
-							<input type="radio" name="product-group" >
+							<input type="radio" name="product-group" value="forCare">
 							Средства для ухода
 						</label>
 						<label>
-							<input type="radio" name="product-group">
+							<input type="radio" name="product-group" value="accessories">
 							Аксессуары
 						</label>
 					</fieldset>
@@ -81,7 +81,7 @@
 				<div class="catalog">
 					<article class="catalog-item">
 						<img src="#" alt="Набор для путешествий" width="220" height="160">
-						<small>Набор для путешествий</small>
+						<span>Набор для путешествий</span>
 						<h2>Baxter of California</h2>
 						<span class="price">
 							2 900 руб. <a href="#">Купить</a>
@@ -89,7 +89,7 @@
 					</article>
 					<article class="catalog-item">
 						<img src="#" alt="Увлажняющий кондиционер" width="220" height="160">
-						<small>Увлажняющий кондиционер</small>
+						<span>Увлажняющий кондиционер</span>
 						<h2>Baxter of California</h2>
 						<span class="price">
 							750 руб. <a href="#">Купить</a>
@@ -97,7 +97,7 @@
 					</article>
 					<article class="catalog-item">
 						<img src="#" alt="Гель для волос" width="220" height="160">
-						<small>Гель для волос</small>
+						<span>Гель для волос</span>
 						<h2>Suavecito</h2>
 						<span class="price">
 							290 руб. <a href="#">Купить</a>
@@ -105,7 +105,7 @@
 					</article>
 					<article class="catalog-item">
 						<img src="#" alt="Глина для укладки волос" width="220" height="160">
-						<small>Глина для укладки волос</small>
+						<span>Глина для укладки волос</span>
 						<h2>American crew</h2>
 						<span class="price">
 							500 руб. <a href="#">Купить</a>
@@ -113,7 +113,7 @@
 					</article>
 					<article class="catalog-item">
 						<img src="#" alt="Гель для волос" width="220" height="160">
-						<small>Гель для волос</small>
+						<span>Гель для волос</span>
 						<h2>American crew</h2>
 						<span class="price">
 							300 руб. <a href="#">Купить</a>
@@ -121,7 +121,7 @@
 					</article>
 					<article class="catalog-item">
 						<img src="#" alt="Набор для бритья" width="220" height="160">
-						<small>Набор для бритья</small>
+						<span>Набор для бритья</span>
 						<h2>Baxter of California</h2>
 						<span class="price">
 							3 900 руб. <a href="#">Купить</a>	
@@ -131,7 +131,7 @@
 				<nav class="paginator">
 					<ul>
 						<li><a href="#">1</a></li>
-						<li><a>2</a></li>
+						<li><a class="active">2</a></li>
 						<li><a href="#">3</a></li>
 						<li><a href="#">4</a></li>
 					</ul>
