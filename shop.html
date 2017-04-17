@@ -10,7 +10,9 @@
 <body>
 	<header class="main-header">
 		<div class="container">
-			<a class="logo" href="index.html"><img src="img/header-logo.png" alt="Borodinsky" width="111" height="24"></a>
+			<a class="logo" href="index.html">
+				<img src="img/header-logo.png" alt="Borodinsky" width="111" height="24">
+			</a>
 			<nav class="main-nav">
 				<ul>
 					<li><a href="#">Информация</a></li>
@@ -20,7 +22,9 @@
 					<li><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
-			<div class="user-block"><a href="#">Вход</a></div>
+			<div class="user">
+				<a class="user__login" href="#">Вход</a>
+			</div>
 		</div>
 	</header>
 	<section class="shop">
@@ -36,7 +40,7 @@
 			<div class="shop">
 				<form method="post" class="filter">
 					<fieldset>
-						<legend>Производители:</legend>
+						<legend><h2>Производители:</h2></legend>
 						<label>
 							<input type="checkbox" name="brands" value="baxterOfCalifornia">
 							Baxter of california
@@ -60,10 +64,10 @@
 						<label>
 							<input type="checkbox" name="brands" value="americanCrew">
 							American crew
-						</label>	
+						</label>
 					</fieldset>
 					<fieldset>
-						<legend>Группы товаров:</legend>
+						<legend><h2>Группы товаров:</h2></legend>
 						<label>
 							<input type="radio" name="product-group" value="forRazor">
 							Бритвенные принадлежности
@@ -83,7 +87,7 @@
 					<article class="catalog-item">
 						<img src="img/shop-item-1.png" alt="Набор для путешествий" width="220" height="160">
 						<span>Набор для путешествий</span>
-						<h2>Baxter of California</h2>
+						<h3>Baxter of California</h3>
 						<span class="price">
 							2 900 руб. <a href="#">Купить</a>
 						</span>
@@ -91,7 +95,7 @@
 					<article class="catalog-item">
 						<img src="img/shop-item-2.png" alt="Увлажняющий кондиционер" width="220" height="160">
 						<span>Увлажняющий кондиционер</span>
-						<h2>Baxter of California</h2>
+						<h3>Baxter of California</h3>
 						<span class="price">
 							750 руб. <a href="#">Купить</a>
 						</span>
@@ -99,7 +103,7 @@
 					<article class="catalog-item">
 						<img src="img/shop-item-3.png" alt="Гель для волос" width="220" height="160">
 						<span>Гель для волос</span>
-						<h2>Suavecito</h2>
+						<h3>Suavecito</h3>
 						<span class="price">
 							290 руб. <a href="#">Купить</a>
 						</span>
@@ -107,7 +111,7 @@
 					<article class="catalog-item">
 						<img src="img/shop-item-4.png" alt="Глина для укладки волос" width="220" height="160">
 						<span>Глина для укладки волос</span>
-						<h2>American crew</h2>
+						<h3>American crew</h3>
 						<span class="price">
 							500 руб. <a href="#">Купить</a>
 						</span>
@@ -115,7 +119,7 @@
 					<article class="catalog-item">
 						<img src="img/shop-item-5.png" alt="Гель для волос" width="220" height="160">
 						<span>Гель для волос</span>
-						<h2>American crew</h2>
+						<h3>American crew</h3>
 						<span class="price">
 							300 руб. <a href="#">Купить</a>
 						</span>
@@ -123,7 +127,7 @@
 					<article class="catalog-item">
 						<img src="img/shop-item-6.png" alt="Набор для бритья" width="220" height="160">
 						<span>Набор для бритья</span>
-						<h2>Baxter of California</h2>
+						<h3>Baxter of California</h3>
 						<span class="price">
 							3 900 руб. <a href="#">Купить</a>	
 						</span>
@@ -142,20 +146,18 @@
 	</section>
 	<footer class="main-footer">
 		<div class="container">
-			<section class="footer-contacts"> 
-				Барбершоп Бородинский<br> 
-				Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> 
-				<a href="#">Как нас найти?</a><br> 
-				Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
+			<section class="footer-contacts">
+				Барбершоп Бородинский<br> Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+				<a href="#">Как нас найти?</a><br> Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
 			</section>
-			<section class="footer-social"> 
-				<p>Давайте дружить!</p> 
-				<a href="#" class="social-icon vk">Вконтакте</a> 
-				<a href="#" class="social-icon fb">Фейсбук</a> 
-				<a href="#" class="social-icon inst">Инстаграм</a> 
+			<section class="footer-social">
+				<p>Давайте дружить!</p>
+				<a href="#" class="social-icon vk">Вконтакте</a>
+				<a href="#" class="social-icon fb">Фейсбук</a>
+				<a href="#" class="social-icon inst">Инстаграм</a>
 			</section>
-			<section class="footer-copyright"> 
-				<p>Разработано:</p> 
+			<section class="footer-copyright">
+				<p>Разработано:</p>
 				<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
 			</section>
 		</div>
