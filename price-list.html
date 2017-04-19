@@ -10,31 +10,33 @@
 <body>
     <header class="main-header">
         <div class="container">
-            <a class="logo" href="index.html"><img src="img/header-logo.png" alt="Borodinsky" width="111" height="24"></a>
+            <a class="logo" href="index.html">
+                <img src="img/header-logo.png" alt="Borodinsky" width="111" height="24">
+            </a>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#">Информация</a></li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a class="active">Прайс-лист</a></li>
-                    <li><a href="#">Магазин</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a class="main-nav__link" href="#">Информация</a></li>
+                    <li><a class="main-nav__link" href="#">Новости</a></li>
+                    <li><a class="main-nav__link" href="price-list.html">Прайс-лист</a></li>
+                    <li><a class="main-nav__link" href="shop.html">Магазин</a></li>
+                    <li><a class="main-nav__link" href="#">Контакты</a></li>
                 </ul>
             </nav>
             <div class="user">
-                <a href="#" class="user__login">Вход</a>
+                <a class="user__login" href="#">Вход</a>
             </div>
         </div>
     </header>
     <main>
         <div class="container">
-            <h1>Прайс-лист</h1>
+            <h1 class="page-title">Прайс-лист</h1>
             <ul class="breadcrumbs">
                 <li><a href="#">Главная</a></li>
                 <li><a class="active">Прайс-лист</a></li>
             </ul>
             <p class="slogan">Истинно мужская классика</p>
-            <div class="left-column">
-                <h2>Мы используем только лучшие средства:</h2>
+            <div class="column">
+                <h2 class="section-title">Мы используем только лучшие средства:</h2>
                 <ul>
                     <li>Baxter of California</li>
                     <li>Mr natty</li>
@@ -42,9 +44,9 @@
                     <li>Malin+Goetz</li>
                 </ul>
             </div>
-            <div class="right-column">
-                <h3>Цены на услуги наших мастеров</h3>
-                <table>
+            <div class="column">
+                <h2 class="section-title">Цены на услуги наших мастеров</h2>
+                <table class="service-table">
                     <tr>
                         <td>Стрижка</td>
                         <td>1500 р.</td>
@@ -60,7 +62,7 @@
                 </table>
             </div>
             <div class="about">
-                <h3>Несколько слов о нас</h3>
+                <h3 class="section-title">Несколько слов о нас</h3>
                 <p> Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество. </p>
                 <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
             </div>
@@ -68,19 +70,21 @@
     </main>
     <footer class="main-footer">
         <div class="container">
-            <section class="footer-contacts">
-                Барбершоп Бородинский<br> Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-                <a href="#">Как нас найти?</a><br> Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
+            <section class="contacts">
+                Барбершоп «Бородинский»<br>
+                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                <a href="#">Как нас найти?</a><br>
+                Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
             </section>
-            <section class="footer-social">
+            <section class="social">
                 <p>Давайте дружить!</p>
-                <a href="#" class="social-icon vk">Вконтакте</a>
-                <a href="#" class="social-icon fb">Фейсбук</a>
-                <a href="#" class="social-icon inst">Инстаграм</a>
+                <a class="social__link social__link--vk" href="#">Вконтакте</a>
+                <a class="social__link social__link--fb" href="#">Фейсбук</a>
+                <a class="social__link social__link--inst" href="#">Инстаграм</a>
             </section>
-            <section class="footer-copyright">
+            <section class="copyright">
                 <p>Разработано:</p>
-                <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+                <a class="copyright__link copyright__link--htmlacademy" href="https://htmlacademy.ru">HTML Academy</a>
             </section>
         </div>
     </footer>

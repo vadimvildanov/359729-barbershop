@@ -10,34 +10,38 @@
 <body>
 	<header class="main-header">
 		<div class="container">
-			<a class="logo" href="index.html"><img src="img/logo-header.png" alt="Borodinsky" width="140" height="50"></a>
-			<nav class="main-nav">
-				<ul>
-					<li><a href="#">Информация</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Прайс-лист</a></li>
-					<li><a class="active">Магазин</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
-			</nav>
-			<div class="user-block"><a href="#">Вход</a></div>
-		</div>
-	</header>
+			<a class="logo" href="index.html">
+               <img src="img/logo-header.png" alt="Borodinsky" width="140" height="50">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a class="main-nav__link" href="#">Информация</a></li>
+                    <li><a class="main-nav__link" href="#">Новости</a></li>
+                    <li><a class="main-nav__link" href="price-list.html">Прайс-лист</a></li>
+                    <li><a class="main-nav__link" href="shop.html">Магазин</a></li>
+                    <li><a class="main-nav__link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="user">
+                <a class="user__login" href="#">Вход</a>
+            </div>
+        </div>
+    </header>
 	<main>
 		<div class="container">
-			<h1>Набор для путешествий «Baxter of California»</h1>
+			<h1 class="page-title">Набор для путешествий «Baxter of California»</h1>
 			<ul class="breadcrumbs">
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Магазин</a></li>
-				<li><a href="#">Средства для ухода</a></li>
-				<li><a class="breadcrumbs__item__active">Набор для путешествий Baxter of California</a></li>
+				<li><a class="breadcrumbs__link" href="#">Главная</a></li>
+				<li><a class="breadcrumbs__link" href="#">Магазин</a></li>
+				<li><a class="breadcrumbs__link" href="#">Средства для ухода</a></li>
+				<li><a class="breadcrumbs__link breadcrumbs__item--active">Набор для путешествий Baxter of California</a></li>
 			</ul>
-			<div class="slider">
-				<img src="img/gallery-item.png" width="460" height="500" alt="Набор для путешествий Baxter of California">
+			<div class="product-gallery">
+				<img class="product-gallery__main-photo" src="img/gallery-item.png" width="460" height="500" alt="Набор для путешествий Baxter of California">
 				<div class="photo-choice">
-					<img src="img/gallery-item-2.png" alt="Набор для путешествий Baxter of California" width="140" height="150">
-					<img src="img/gallery-item-3.png" alt="Набор для путешествий Baxter of California" width="140" height="150">
-					<img src="img/gallery-item-4.png" alt="Набор для путешествий Baxter of California" width="140" height="150">
+					<img class="photo-choice__item" src="img/gallery-item-2.png" alt="Набор для путешествий Baxter of California" width="140" height="150">
+					<img class="photo-choice__item" src="img/gallery-item-3.png" alt="Набор для путешествий Baxter of California" width="140" height="150">
+					<img class="photo-choice__item" src="img/gallery-item.png" alt="Набор для путешествий Baxter of California" width="140" height="150">
 				</div>
 			</div>
 			<section class="description">
@@ -46,42 +50,42 @@
 				<p>
 					Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
 				</p>
-				<span class="price">
-					2 900 руб. <a href="#">Купить</a>
+				<span class="description__price">
+					2 900 руб. <a class="btn" href="#">Купить</a>
 				</span>
 			</section>
 			<section class="item-inner">
-				<h2>В набор входят</h2>
-				<ul>
-					<li>Средство для умывания (50 мл)</li>
-					<li>Увлажняющий крем (50 мл)</li>
-					<li>Крем для бритья (50 мл)</li>
-					<li>Крем после бритья, шампунь (50 мл)</li>
-					<li>Удобная кожанная косметичка</li>
+				<h2 class="section-title">В набор входят</h2>
+				<ul class="inner-list">
+					<li class="inner-list__item">Средство для умывания (50 мл)</li>
+					<li class="inner-list__item">Увлажняющий крем (50 мл)</li>
+					<li class="inner-list__item">Крем для бритья (50 мл)</li>
+					<li class="inner-list__item">Крем после бритья, шампунь (50 мл)</li>
+					<li class="inner-list__item">Удобная кожанная косметичка</li>
 				</ul>
 			</section>
 		</div>
 	</main>
-	<footer class="main-footer">
-		<div class="container">
-			<section class="footer-contacts"> 
-				Барбершоп Бородинский<br> 
-				Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> 
-				<a href="#">Как нас найти?</a><br> 
-				Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
-			</section>
-			<section class="footer-social"> 
-				<p>Давайте дружить!</p> 
-				<a href="#" class="social-icon vk">Вконтакте</a> 
-				<a href="#" class="social-icon fb">Фейсбук</a> 
-				<a href="#" class="social-icon inst">Инстаграм</a> 
-			</section>
-			<section class="footer-copyright"> 
-				<p>Разработано:</p> 
-				<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-			</section>
-		</div>
-	</footer>
+    <footer class="main-footer">
+        <div class="container">
+            <section class="contacts">
+                Барбершоп «Бородинский»<br>
+                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                <a href="#">Как нас найти?</a><br>
+                Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
+            </section>
+            <section class="social">
+                <p>Давайте дружить!</p>
+                <a class="social__link social__link--vk" href="#">Вконтакте</a>
+                <a class="social__link social__link--fb" href="#">Фейсбук</a>
+                <a class="social__link social__link--inst" href="#">Инстаграм</a>
+            </section>
+            <section class="copyright">
+                <p>Разработано:</p>
+                <a class="copyright__link copyright__link--htmlacademy" href="https://htmlacademy.ru">HTML Academy</a>
+            </section>
+        </div>
+    </footer>
 </body>
 
 </html>
