@@ -1,29 +1,27 @@
 <!doctype html>
-<html>
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<title>Log in</title>
 	</head>
 	<body>
-		<h2>Личный кабинет</h2>
-		<form method="post">
-			<fieldset>
-				<legend>Введите пожалуйста свой логин и пароль</legend>
-				<label>
-					<input type="text" placeholder="Логин">
-				</label>
-				<label>
-					<input type="password" placeholder="Пароль">
-				</label>
-			</fieldset>
-			<fieldset>
-				<label>
-					<input type="checkbox" name="save-user">
-					Запомните меня
-				</label>
-				<a href="#">Я забыл пароль</a>
-			</fieldset>
-			<button name="login">Войти</button>
-		</form>
+	    <div class="login">
+		    <h2 class="section-title">Личный кабинет</h2>
+		    <form method="post" class="login__form">
+		    	<fieldset class="login__group">
+		    		<legend>Введите пожалуйста свой логин и пароль</legend>
+		    		<input class="login__name" type="text" placeholder="Логин">
+		    		<input class="login__password" type="password" placeholder="Пароль">
+		    	</fieldset>
+		    	<fieldset class="login__group">
+		    		<label class="login__label--checkbox">
+		    			<input class="login__checkbox" type="checkbox" name="save-user">
+		    			<span class="login_subtitle">Запомните меня</span>
+		    		</label>
+		    		<a href="#">Я забыл пароль</a>
+		    	</fieldset>
+		    	<button class="btn" name="login">Войти</button>
+		    </form>
+        </div>
 	</body>
 </html>

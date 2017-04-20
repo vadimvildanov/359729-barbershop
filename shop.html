@@ -14,16 +14,16 @@
 				<img src="img/header-logo.png" alt="Borodinsky" width="111" height="24">
 			</a>
             <nav class="main-nav">
-                <ul>
-                    <li><a class="main-nav__link" href="#">Информация</a></li>
-                    <li><a class="main-nav__link" href="#">Новости</a></li>
-                    <li><a class="main-nav__link" href="price-list.html">Прайс-лист</a></li>
-                    <li><a class="main-nav__link" href="shop.html">Магазин</a></li>
-                    <li><a class="main-nav__link" href="#">Контакты</a></li>
+                <ul class="nav-list">
+                    <li><a class="nav-list__link" href="#">Информация</a></li>
+                    <li><a class="nav-list__link" href="#">Новости</a></li>
+                    <li><a class="nav-list__link" href="price-list.html">Прайс-лист</a></li>
+                    <li><a class="nav-list__link" href="shop.html">Магазин</a></li>
+                    <li><a class="nav-list__link" href="#">Контакты</a></li>
                 </ul>
             </nav>
             <div class="user">
-                <a class="user__login" href="#">Вход</a>
+                <a class="user__link" href="login.html">Вход</a>
             </div>
         </div>
     </header>
@@ -31,58 +31,52 @@
 		<div class="container">
 			<h1 class="page-title">Средства для ухода</h1>
 			<nav class="breadcrumbs">
-				<ul>
-					<li><a class="breadcrumbs__link" href="#">Главная</a></li>
-					<li><a class="breadcrumbs__link" href="#">Магазин</a></li>
-					<li><a class="breadcrumbs__link breadcrumbs__link--active">Средства для ухода</a></li>
-				</ul>
+				<a class="breadcrumbs__link" href="index.html">Главная</a>
+				<a class="breadcrumbs__link" href="shop.html">Магазин</a>
+				<a class="breadcrumbs__link breadcrumbs__link--active">Средства для ухода</a>
 			</nav>
 			<div class="shop">
 				<form method="post" class="filter">
 					<fieldset class="filter-group">
-						<legend>
-						    <h2 class="section-title">Производители:</h2>
-				        </legend>
-						<label class="filter-group__label">
-							<input class="filter-group__checkbox" type="checkbox" name="brands" value="baxterOfCalifornia">
-							Baxter of california
+						<legend class="section-title">Производители:</legend>
+						<label class="filter-label">
+							<input class="filter-checkbox" type="checkbox" name="brands" value="baxterOfCalifornia">
+                            <span class="filter-subtitle">Baxter of california</span>
 						</label>
-						<label class="filter-group__label">
-							<input class="filter-group__checkbox" type="checkbox" name="brands" value="mrNatty">
-							Mr natty
+						<label class="filter-label">
+							<input class="filter-checkbox" type="checkbox" name="brands" value="mrNatty">
+                            <span class="filter-subtitle">Mr natty</span>
 						</label>
-						<label class="filter-group__label">
-							<input class="filter-group__checkbox" type="checkbox" name="brands" value="suavecito">
-							Suavecito
+						<label class="filter-label">
+							<input class="filter-checkbox" type="checkbox" name="brands" value="suavecito">
+                            <span class="filter-subtitle">Suavecito</span>
 						</label>
-						<label class="filter-group__label">
-							<input class="filter-group__checkbox" type="checkbox" name="brands" value="malinGoets">
-							Malin+Goets
+						<label class="filter-label">
+							<input class="filter-checkbox" type="checkbox" name="brands" value="malinGoets">
+                            <span class="filter-subtitle">Malin+Goets</span>
 						</label>
-						<label class="filter-group__label">
-							<input class="filter-group__checkbox" type="checkbox" name="brands" value="murrays">
-							Murray's
+						<label class="filter-label">
+							<input class="filter-checkbox" type="checkbox" name="brands" value="murrays">
+                            <span class="filter-subtitle">Murray's</span>
 						</label>
-						<label class="filter-group__label">
-							<input class="filter-group__checkbox" type="checkbox" name="brands" value="americanCrew">
-							American crew
+						<label class="filter-label">
+							<input class="filter-checkbox" type="checkbox" name="brands" value="americanCrew">
+                            <span class="filter-subtitle">American crew</span>
 						</label>
 					</fieldset>
 					<fieldset class="filter-group">
-						<legend>
-						    <h2 class="section-title">Группы товаров:</h2>
-				        </legend>
-						<label class="filter-group__label">
-							<input class="filter-group__radio" type="radio" name="product-group" value="forRazor">
-							Бритвенные принадлежности
+						<legend class="section-title">Группы товаров:</legend>
+						<label class="filter-label">
+							<input class="filter-radio" type="radio" name="product-group" value="forRazor">
+                            <span class="filter-subtitle">Бритвенные принадлежности</span>
 						</label>
-						<label class="filter-group__label">
-							<input class="filter-group__radio" type="radio" name="product-group" value="forCare">
-							Средства для ухода
+						<label class="filter-label">
+							<input class="filter-radio" type="radio" name="product-group" value="forCare">
+                            <span class="filter-subtitle">Средства для ухода</span>
 						</label>
-						<label class="filter-group__label">
-							<input class="filter-group__radio" type="radio" name="product-group" value="accessories">
-							Аксессуары
+						<label class="filter-label">
+							<input class="filter-radio" type="radio" name="product-group" value="accessories">
+                            <span class="filter-subtitle">Аксессуары</span>
 						</label>
 					</fieldset>
 					<button type="submit" class="btn">Показать</button>
