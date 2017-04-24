@@ -2,92 +2,87 @@
 <html lang="ru">
 
 <head>
-    <meta charset="utf-8">
-    <title>Прайс лист</title>
-    <link href="css/style.css" type="text/css">
+	<meta charset="utf-8">
+	<title>Прайс лист</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="main-header">
-        <div class="container">
-            <a class="logo" href="index.html">
-                <img src="img/header-logo.png" alt="Borodinsky" width="111" height="24">
-            </a>
-            <nav class="main-nav">
-                <ul class="nav-list">
-                    <li><a class="nav-list__link" href="#">Информация</a></li>
-                    <li><a class="nav-list__link" href="#">Новости</a></li>
-                    <li><a class="nav-list__link" href="price-list.html">Прайс-лист</a></li>
-                    <li><a class="nav-list__link" href="shop.html">Магазин</a></li>
-                    <li><a class="nav-list__link" href="#">Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="user">
-                <a class="user__link" href="login.html">Вход</a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <h1 class="page-title">Прайс-лист</h1>
-            <nav class="breadcrumbs">
-                <a class="breadcrumbs__link" href="index.html">Главная</a>
-                <a class="breadcrumbs__link breadcrumbs__link--active">Прайс-лист</a>
-            </nav>
-            <p class="slogan">Истинно мужская классика</p>
-            <div class="our-brands">
-                <h2 class="our-brands__title section-title">Мы используем только лучшие средства:</h2>
-                <ul class="brands-list">
-                    <li class="brands-list__item">Baxter of California</li>
-                    <li class="brands-list__item">Mr natty</li>
-                    <li class="brands-list__item">Suavecito</li>
-                    <li class="brands-list__item">Malin+Goetz</li>
-                </ul>
-            </div>
-            <div class="price">
-                <h2 class="price__title section-title">Цены на услуги наших мастеров</h2>
-                <table class="price-table">
-                    <tr class="price-table__row">
-                        <td class="price-table__cell">Стрижка</td>
-                        <td class="price-table__cell">1500 р.</td>
-                    </tr>
-                    <tr class="price-table__row">
-                        <td class="price-table__cell">Стрижка бороды</td>
-                        <td class="price-table__cell">500 р.</td>
-                    </tr>
-                    <tr class="price-table__row">
-                        <td class="price-table__cell">Накрутка усов</td>
-                        <td class="price-table__cell">350 р.</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="about">
-                <h3 class="about__title section-title">Несколько слов о нас</h3>
-                <p class="about__text"> Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество. </p>
-                <p class="about__text">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
-            </div>
-        </div>
-    </main>
-    <footer class="main-footer">
-        <div class="container">
-            <section class="contacts">
-                Барбершоп «Бородинский»<br>
-                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-                <a href="#">Как нас найти?</a><br>
-                Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
-            </section>
-            <section class="social">
-                <p>Давайте дружить!</p>
-                <a class="social__link social__link--vk" href="#">Вконтакте</a>
-                <a class="social__link social__link--fb" href="#">Фейсбук</a>
-                <a class="social__link social__link--inst" href="#">Инстаграм</a>
-            </section>
-            <section class="copyright">
-                <p>Разработано:</p>
-                <a class="copyright__link copyright__link--htmlacademy" href="https://htmlacademy.ru">HTML Academy</a>
-            </section>
-        </div>
-    </footer>
+	<header class="main-header">
+		<div class="container page-header">
+			<nav class="main-nav">
+				<ul class="nav-list">
+					<li><a class="nav-list__link" href="#">Информация</a></li>
+					<li><a class="nav-list__link" href="#">Новости</a></li>
+					<li><a class="nav-list__link" href="price-list.html">Прайс-лист</a></li>
+					<li><a class="nav-list__link" href="shop.html">Магазин</a></li>
+					<li><a class="nav-list__link" href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="user">
+				<a class="user__link" href="login.html">Вход</a>
+			</div>
+		</div>
+	</header>
+	<main class="container price-main">
+			<h1 class="page-title">Прайс-лист</h1>
+			<nav class="breadcrumbs">
+				<a class="breadcrumbs__link" href="index.html">Главная</a>
+				<a class="breadcrumbs__link breadcrumbs__link--active">Прайс-лист</a>
+			</nav>
+			<p class="slogan">Истинно мужская классика</p>
+			<div class="block">
+				<div class="our-brands">
+					<h2 class="our-brands__title section-title">Мы используем только лучшие средства:</h2>
+					<ul class="brands-list">
+						<li class="brands-list__item">Baxter of California</li>
+						<li class="brands-list__item">Mr natty</li>
+						<li class="brands-list__item">Suavecito</li>
+						<li class="brands-list__item">Malin+Goetz</li>
+					</ul>
+				</div>
+				<div class="price">
+					<h2 class="price__title section-title">Цены на услуги наших мастеров</h2>
+					<table class="price-table">
+						<tr class="price-table__row">
+							<td class="price-table__cell">Стрижка</td>
+							<td class="price-table__cell">1500 р.</td>
+						</tr>
+						<tr class="price-table__row">
+							<td class="price-table__cell">Стрижка бороды</td>
+							<td class="price-table__cell">500 р.</td>
+						</tr>
+						<tr class="price-table__row">
+							<td class="price-table__cell">Накрутка усов</td>
+							<td class="price-table__cell">350 р.</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="about">
+				<h3 class="about__title section-title">Несколько слов о нас</h3>
+				<p class="about__text"> Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество. </p>
+				<p class="about__text">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+			</div>
+	</main>
+	<footer class="main-footer">
+		<div class="container page-footer">
+			<section class="contacts">
+				Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+				<a href="#">Как нас найти?</a><br> Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
+			</section>
+			<section class="social">
+				<p class="social__subtitle">Давайте дружить!</p>
+				<a class="social__link social__link--vk" href="#">Вконтакте</a>
+				<a class="social__link social__link--fb" href="#">Фейсбук</a>
+				<a class="social__link social__link--inst" href="#">Инстаграм</a>
+			</section>
+			<section class="copyright">
+				<p class="copyright__subtitle">Разработано:</p>
+				<a class="copyright__link copyright__link--htmlacademy" href="https://htmlacademy.ru">HTML Academy</a>
+			</section>
+		</div>
+	</footer>
 </body>
 
 </html>

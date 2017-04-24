@@ -1,3 +1,11 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
+}
+
 body {
 	font-family: "PT Sans", sans-serif;
 	font-size: 14px;
@@ -18,4 +26,194 @@ h2 {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 30px;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main-header {
+	width: 100%;
+	min-height: 72px;
+}
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-list {
+	display: flex;
+	min-width: 540px;
+	justify-content: space-around;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.index-logo {
+	align-self: center;
+}
+
+.features {
+	display: flex;
+	justify-content: space-between;
+}
+
+.features-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.features-item__text {
+	text-align: center;
+}
+
+.block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.block-between {
+	justify-content: space-around;
+}
+
+.news {
+	width: 380px;
+	display: flex;
+	flex-direction: column;
+}
+
+.gallery {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.gallery__content {
+	margin: 0px;
+}
+
+.office {
+	width: 380px;
+	display: flex;
+	flex-direction: column;
+}
+
+.appoinment {
+	width: 300px;
+	display: flex;
+	flex-direction:column;
+}
+
+.appoinment-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-footer {
+	width: 100%;
+}
+
+.page-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.price-main {
+	display: flex;
+	flex-direction: column;
+}
+
+.our-brands {
+	width: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.price {
+	width: 460px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.about__title {
+	width: 100%;
+}
+
+.about__text {
+	width: 460px;
+	padding-right: 80px;
+}
+
+.product {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-gallery {
+	width: 460px;
+}
+
+.description {
+	width: 390px;
+	display: flex;
+	flex-direction: column;
+}
+
+.shop-main {
+	display: flex;
+	flex-direction: column;
+}
+
+.shop {
+	display: flex;
+}
+
+.filter {
+	width: 220px;
+	display: flex;
+	flex-direction: column;
+}
+
+.filter-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.catalog {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.catalog-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.catalog-paginator {
+	width: 100%;
+}
+
+.catalog-paginator-list {
+	display: flex;
+	list-style: none;
 }
